@@ -1,1 +1,1 @@
-web: gunicorn flexmoney.wsgi
+web: gunicorn flexmoney.wsgi --log-file -
